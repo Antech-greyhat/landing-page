@@ -158,6 +158,25 @@ h2:hover{
     color: rgb(78, 41, 41);
 }
 
+/* button */
+button{
+    font-family: cursive;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    border: 3px solid lightslategray;
+    border-radius: 20px;
+    background-color: rgba(209, 194, 194, 0.87);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover{
+    background:   linear-gradient(180deg, teal, lightsalmon);
+    transform: translateY(-8px);
+    box-shadow: 8px 7px 15px rgba(0, 0, 0, 0.397);
+}
 /* media query styles */
 @media (max-width: 768px){
     nav > ul{
