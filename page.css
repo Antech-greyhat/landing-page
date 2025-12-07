@@ -76,6 +76,10 @@ nav > ul > li > a:hover{
     transform: translateY(-13px);
     box-shadow: 10px 7px 10px rgb(157, 157, 189);
 }
+/* h1 styles */
+h1{
+    
+}
 
 /* main */
 main{
