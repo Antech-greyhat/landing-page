@@ -18,6 +18,8 @@ body{
     scroll-behavior: smooth;
     scrollbar-width: 130px;
     scrollbar-color: blue;
+    loading: lazy;
+    refferences: none;
 }
 
 /* fonts for a */
