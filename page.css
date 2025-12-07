@@ -72,13 +72,41 @@ nav > ul > li  > a{
 }
 nav > ul > li > a:hover{
     color: antiquewhite;
-    background: linear-gradient(135deg, #8da0c2, #bfc0c2);
+    background: linear-gradient(135deg, #131314, #e3e5e9);
     transform: translateY(-13px);
-    box-shadow: 10px 7px 10px rgb(157, 157, 189);
+    box-shadow: 10px 7px 10px rgba(112, 112, 121, 0.397);
 }
 /* h1 styles */
 h1{
-    
+    font-family: Dancing Script;
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 0;
+}
+h1 img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+h1::after{
+    content: '';
+    display: block;
+    width: 15%;
+    height: 4px;
+    background: rgb(21, 22, 22);
+    margin-top: 5px;
+    border-radius: 5px;
+    border-left: 3px solid gold;
+    border-right: 6px solid blue;
+    border-top: 2px solid white;
+}
+h1:hover{
+    color: gold;
 }
 
 /* main */
@@ -126,6 +154,10 @@ h2::after{
     transform: translateX(-50%);
     display: block;
 }
+h2:hover{
+    color: rgb(78, 41, 41);
+}
+
 /* media query styles */
 @media (max-width: 768px){
     nav > ul{
